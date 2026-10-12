@@ -5,19 +5,21 @@ notes.txt:note one
 notes.txt:note one more
 data.bin:01 02 03
 data.bin:01 FF 03
-data.bin:01 FF 03 00 00
+data.bin:bin:3
+Invalid operation
 notes.txt:txt:13
-data.bin:bin:5
+data.bin:bin:3
 notes.txt:13
 readme.md:8
-data.bin:5
-merged.txt:note one more# readme
+data.bin:3
+notes.txt:13
+merged.txt:
 main.cpp:int main() {}
 todo.txt:txt:4
 Invalid operation
 Invalid operation
 todo.txt:4
-/todo.txt
+todo.txt:txt:4
 docs/
 src/
 todo.txt

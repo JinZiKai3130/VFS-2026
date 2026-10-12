@@ -27,7 +27,7 @@ undo
 tree
 cd proj
 cd src
-find util.cpp
+stat util.cpp
 ls
 undo
 undo

@@ -1,4 +1,4 @@
-39
+72
 mkdir x
 mkdir y
 mkdir empty
@@ -38,3 +38,36 @@ undo
 tree
 cd x
 tree
+cd /
+mkdir pathdemo
+cd pathdemo
+create txt here "P"
+mkdir src
+mkdir docs
+cd src
+create txt here "S"
+mkdir lib
+cd lib
+create txt here "L"
+cd /pathdemo/docs
+create txt here "D"
+cd ../src/lib
+cat here
+cd ../..
+cat here
+cd ./docs
+cat here
+cd /pathdemo/src/lib
+cat here
+undo
+cat here
+redo
+cat here
+undo
+cat here
+cd /pathdemo/src
+cat here
+cd lib
+cat here
+cd /pathdemo
+cat here
