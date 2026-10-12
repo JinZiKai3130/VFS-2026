@@ -8,16 +8,25 @@ src/
 readme.txt:txt:9
 src:dir:0
 readme.txt:hello vfs!
-/src/lib/util.cpp
-/src/main.cpp
+util.cpp:txt:13
+Invalid operation
 main.cpp:int main() {}// ok
-merged.txt:int main() {}// ok# design
-merged.txt:26
+main.cpp:18
+merged.txt:
 main.cpp:18
 design.md:8
+merged.txt:0
 util.cpp
-Null
+Invalid operation
 design.md
 lib/
 main.cpp
 merged.txt
+here:L
+here:P
+here:D
+here:L
+here:D
+here:S
+here:L
+here:P

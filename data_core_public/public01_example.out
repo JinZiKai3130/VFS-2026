@@ -1,7 +1,6 @@
 x.txt:inner
-/a/x.txt
-/x.txt
-/a/note.md
+x.txt:txt:5
+note.md:md:4
 b.bin
 note.md
 x.txt
@@ -10,7 +9,7 @@ x.txt:txt:5
 b.bin:bin:5
 b.bin:48 65 6C 6C 6F
 Invalid operation
-/x.txt
+x.txt:txt:4
 x.txt:root
 a/
 x.txt

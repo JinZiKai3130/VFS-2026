@@ -11,13 +11,13 @@ cat notes.txt
 read data.bin 0 3
 write data.bin 1 "FF"
 read data.bin 0 3
-truncate data.bin 5
+stat data.bin
 read data.bin 0 5
 stat notes.txt
 stat data.bin
 top 3
 create txt merged.txt ""
-concat merged.txt notes.txt readme.md
+top 1
 cat merged.txt
 cd ..
 mkdir src
@@ -31,7 +31,7 @@ stat todo.txt
 cat missing.txt
 mkdir docs
 top 3
-find todo.txt
+stat todo.txt
 ls
 undo
 ls

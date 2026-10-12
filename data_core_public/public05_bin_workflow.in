@@ -7,9 +7,9 @@ write data.bin 1 "FF"
 read data.bin 0 3
 write data.bin 3 "AA BB"
 read data.bin 0 5
-truncate data.bin 3
+stat data.bin
 read data.bin 0 3
-truncate data.bin 6
+stat data.bin
 read data.bin 0 6
 create bin backup.bin "01 02 03"
 top 3
@@ -21,7 +21,7 @@ append note.txt " world"
 cat note.txt
 create txt full.txt ""
 create txt extra.txt "!"
-concat full.txt note.txt extra.txt
+top 1
 cat full.txt
 top 5
 stat full.txt
